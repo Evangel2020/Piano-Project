@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Piano Keyboard</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- creating the header of the piano -->
+      <header>
+        <h2>Piano Keyboard</h2>
+        <div class="row piano-slider">
+          <span>Volume</span>
+          <input type="range" min="0" max="1" value="0.5" step="any" />
+        </div>
+        <div class="row keys-checkbox" checked>
+          <span>Shows Keys</span>
+          <input type="checkbox" />
+        </div>
+      </header>
+
+      <!-- creating the key letter -->
+      <ul class="piano-keys">
+        <li class="key white" data-key="A"><span>A</span></li>
+        <li class="key black" data-key="W"><span>W</span></li>
+        <li class="key white" data-key="S"><span>S</span></li>
+        <li class="key white" data-key="E"><span>E</span></li>
+        <li class="key black" data-key="D"><span>D</span></li>
+        <li class="key white" data-key="F"><span>F</span></li>
+        <li class="key white" data-key="T"><span>T</span></li>
+        <li class="key black" data-key="G"><span>G</span></li>
+        <li class="key white" data-key="Y"><span>Y</span></li>
+        <li class="key black" data-key="H"><span>H</span></li>
+        <li class="key white" data-key="U"><span>U</span></li>
+        <li class="key black" data-key="J"><span>J</span></li>
+        <li class="key white" data-key="K"><span>K</span></li>
+      </ul>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
